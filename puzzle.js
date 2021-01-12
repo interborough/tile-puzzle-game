@@ -1,7 +1,7 @@
 var images = ['pic/puzzle/Row 1 Col 1.jpg', 'pic/puzzle/Row 1 Col 2.jpg', 'pic/puzzle/Row 1 Col 3.jpg', 'pic/puzzle/Row 2 Col 1.jpg',
  'pic/puzzle/Row 2 Col 2.jpg', 'pic/puzzle/Row 2 Col 3.jpg', 'pic/puzzle/Row 3 Col 1.jpg', 'pic/puzzle/Row 3 Col 2.jpg', 'pic/puzzle/Row 3 Col 3.jpg']; 
 
-var swapCount = 0; 
+ var swapCount = 0; 
 
 document.addEventListener("DOMContentLoaded", function() 
 {
@@ -82,6 +82,8 @@ function gameWon()
     var imgPosSeven = document.getElementById("picSeven"); 
     var imgPosEight = document.getElementById("picEight"); 
     var imgPosNine = document.getElementById("picNine"); 
+
+    console.log(imgPosOne.src); 
 
     if(imgPosOne.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%201%20Col%201.jpg' && imgPosTwo.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%201%20Col%202.jpg' 
           && imgPosThree.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%201%20Col%203.jpg' && imgPosFour.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%202%20Col%201.jpg' 
