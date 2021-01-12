@@ -31,6 +31,7 @@ ul {
 
 a {
   text-align: center;
+  color: white; 
 }
 
 #button-container {
@@ -83,8 +84,9 @@ h1 {
   padding-top: 2%; 
   color: #f9f9f9;
   text-align: center;
-  text-decoration-line: underline;
+  text-decoration: underline;
 }
+
 .puzzle-grid {
   display: grid;
   grid-gap: 1px;
@@ -94,26 +96,32 @@ h1 {
   padding-top: 2%;
   padding-bottom: 1%; 
 }
+
 .puzzle-pic {
   min-width: 370px;
   padding: 10px;
   background-color: rgb(41, 61, 81);
 }
+
 #button-container {
   padding-bottom: 1%;
 }
+
 #boxOne, #boxFour, #boxSeven, #boxThree, #boxSix, #boxNine  {
   border-left: solid;
   border-right: solid;
   border-bottom: solid;
 }
+
 #boxOne, #boxTwo, #boxThree {
   border-top: solid;
 }
+
 #boxTwo, #boxFive, #boxEight {
   border-bottom: solid;
   border-left: solid;
 }
+
 #swap-button {
   width: 100px;
   height: 40px;
@@ -125,6 +133,7 @@ h1 {
   font-size: 15px;
   font-weight: bold;
 }
+
 #swap-button:hover {
   width: 100px;
   height: 40px;
@@ -135,4 +144,11 @@ h1 {
   color: white; 
   font-weight: bold;
   cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(41, 61, 81);
+  color: white;
 }
