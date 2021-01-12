@@ -83,11 +83,11 @@ function gameWon()
     var imgPosEight = document.getElementById("picEight"); 
     var imgPosNine = document.getElementById("picNine"); 
 
-    if(imgPosOne.src == 'https://venus.cs.qc.cuny.edu/~sugr9916/cs355/pic/puzzle/Row%201%20Col%201.jpg' && imgPosTwo.src == 'https://venus.cs.qc.cuny.edu/~sugr9916/cs355/pic/puzzle/Row%201%20Col%202.jpg' 
-          && imgPosThree.src == 'https://venus.cs.qc.cuny.edu/~sugr9916/cs355/pic/puzzle/Row%201%20Col%203.jpg' && imgPosFour.src == 'https://venus.cs.qc.cuny.edu/~sugr9916/cs355/pic/puzzle/Row%202%20Col%201.jpg' 
-          && imgPosFive.src == 'https://venus.cs.qc.cuny.edu/~sugr9916/cs355/pic/puzzle/Row%202%20Col%202.jpg' && imgPosSix.src == 'https://venus.cs.qc.cuny.edu/~sugr9916/cs355/pic/puzzle/Row%202%20Col%203.jpg'
-          && imgPosSeven.src == 'https://venus.cs.qc.cuny.edu/~sugr9916/cs355/pic/puzzle/Row%203%20Col%201.jpg' && imgPosEight.src == 'https://venus.cs.qc.cuny.edu/~sugr9916/cs355/pic/puzzle/Row%203%20Col%202.jpg' 
-          && imgPosNine.src == 'https://venus.cs.qc.cuny.edu/~sugr9916/cs355/pic/puzzle/Row%203%20Col%203.jpg')
+    if(imgPosOne.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%201%20Col%201.jpg' && imgPosTwo.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%201%20Col%202.jpg' 
+          && imgPosThree.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%201%20Col%203.jpg' && imgPosFour.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%202%20Col%201.jpg' 
+          && imgPosFive.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%202%20Col%202.jpg' && imgPosSix.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%202%20Col%203.jpg'
+          && imgPosSeven.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%203%20Col%201.jpg' && imgPosEight.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%203%20Col%202.jpg' 
+          && imgPosNine.src == 'https://raw.githubusercontent.com/interborough/tile-puzzle-game/main/pic/puzzle/Row%203%20Col%203.jpg')
      {
          if(swapCount == 1)
          {
