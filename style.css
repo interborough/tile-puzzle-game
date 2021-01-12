@@ -8,6 +8,8 @@
 }
 
 html {
+  position: relative;
+  min-height: 100%;
   background-color: rgb(55, 83, 108);  
 }
 
@@ -32,6 +34,12 @@ ul {
 a {
   text-align: center;
   color: white; 
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 20px; 
 }
 
 #button-container {
@@ -104,7 +112,12 @@ h1 {
 }
 
 #button-container {
-  padding-bottom: 1%;
+  padding-bottom: 2%;
+}
+
+#text-div {
+  padding-top: 1%;
+  padding-bottom: 2%; 
 }
 
 #boxOne, #boxFour, #boxSeven, #boxThree, #boxSix, #boxNine  {
@@ -147,6 +160,9 @@ h1 {
 }
 
 footer {
+  position: absolute; 
+  overflow: hidden;
+  width: 100%;  
   text-align: center;
   padding: 3px;
   background-color: rgb(41, 61, 81);
