@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  background-color: rgb(55, 83, 108);  
+}
+
+section h2 h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  height: 200px;
+  color: white;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.dropdown {
+  float: left;
+  text-align: center;
+}
+
+a {
+  text-align: center;
+}
+
+#button-container {
+	text-align: center; 
+}
+
+#navbar {
+	background-color: rgb(41, 61, 81);
+}
+
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #34495e;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: grey;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #eeeeee;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  padding-top: 2%; 
+  color: #f9f9f9;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.puzzle-grid {
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 310px 310px 310px;
+  grid-template-rows: 370px 370px 370px; 
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 1%; 
+}
+.puzzle-pic {
+  min-width: 370px;
+  padding: 10px;
+  background-color: rgb(41, 61, 81);
+}
+#button-container {
+  padding-bottom: 1%;
+}
+#boxOne, #boxFour, #boxSeven, #boxThree, #boxSix, #boxNine  {
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+}
+#boxOne, #boxTwo, #boxThree {
+  border-top: solid;
+}
+#boxTwo, #boxFive, #boxEight {
+  border-bottom: solid;
+  border-left: solid;
+}
+#swap-button {
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid; 
+  text-transform: uppercase; 
+  color: white; 
+  font-size: 15px;
+  font-weight: bold;
+}
+#swap-button:hover {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(41, 61, 81);
+  border-radius: 5px;
+  border: 2px solid; 
+  text-transform: uppercase; 
+  color: white; 
+  font-weight: bold;
+  cursor: pointer;
+}

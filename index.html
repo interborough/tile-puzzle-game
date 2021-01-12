@@ -1,1 +1,70 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puzzle Game</title>
+  <link rel="icon" href="pic/WebsiteLogo.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <nav id="navbar">
+     <ul>
+       <li class="dropdown">
+         <a href="index.html" class="dropbtn">Home</a>
+         <div class ="dropdown-content">
+         </div>
+       </li>
+       <li class="dropdown">
+         <a href="rules.html" class="dropbtn">How to Play</a>
+         <div class ="dropdown-content">
+         </div>
+       </li>
+      </ul>
+   </nav>
+   <h1>Puzzle Game</h1>
+   <div class="puzzle-grid">
+      <div class="puzzle-pic" id="boxOne">
+         <input type="checkbox" name="box" id="checkboxOne">
+         <img src="pic/puzzle/Row 1 Col 1.jpg" width="260" height="347" alt="Row 1 Col 1" id="picOne">
+      </div>
+      <div class="puzzle-pic" id="boxTwo">
+         <input type="checkbox" name="box" id="checkboxTwo">
+         <img src="pic/puzzle/Row 1 Col 2.jpg" width="260" height="347" alt="Row 1 Col 2" id="picTwo">
+      </div>
+      <div class="puzzle-pic" id="boxThree">
+         <input type="checkbox" name="box" id="checkboxThree">
+         <img src="pic/puzzle/Row 1 Col 3.jpg" width="260" height="347" alt="Row 1 Col 3" id="picThree">
+      </div>
+      <div class="puzzle-pic" id="boxFour">
+         <input type="checkbox" name="box" id="checkboxFour">
+         <img src="pic/puzzle/Row 2 Col 1.jpg" width="260" height="347" alt="Row 2 Col 1" id="picFour">
+      </div>
+      <div class="puzzle-pic" id="boxFive">
+         <input type="checkbox" name="box" id="checkboxFive">
+         <img src="pic/puzzle/Row 2 Col 2.jpg" width="260" height="347" alt="Row 2 Col 2" id="picFive">
+      </div>
+      <div class="puzzle-pic" id="boxSix">
+         <input type="checkbox" name="box" id="checkboxSix">
+         <img src="pic/puzzle/Row 2 Col 3.jpg" width="260" height="347" alt="Row 2 Col 3" id="picSix">
+      </div>
+      <div class="puzzle-pic" id="boxSeven">
+         <input type="checkbox" name="box" id="checkboxSeven">
+         <img src="pic/puzzle/Row 3 Col 1.jpg" width="260" height="347" alt="Row 3 Col 1" id="picSeven">
+      </div>
+      <div class="puzzle-pic" id="boxEight">
+         <input type="checkbox" name="box" id="checkboxEight">
+         <img src="pic/puzzle/Row 3 Col 2.jpg" width="260" height="347" alt="Row 3 Col 2" id="picEight">
+      </div>
+      <div class="puzzle-pic" id="boxNine">
+         <input type="checkbox" name="box" id="checkboxNine">
+         <img src="pic/puzzle/Row 3 Col 3.jpg" width="260" height="347" alt="Row 3 Col 3" id="picNine">
+      </div>
+   </div>
+   <div id="button-container">
+      <button type="button" class="button" onclick="swapImages()" id="swap-button">Swap</button>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+   <script src="puzzle.js"></script>
+</body>
+</html>
