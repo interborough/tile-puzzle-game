@@ -11,5 +11,5 @@ logo.onmouseout = function() {
 
 //If logo is clicked, go back to homepage.  
 logo.onclick = function() {
-    window.location.href = "index.html"
+    window.open('index.html', '_self', false)
 }
