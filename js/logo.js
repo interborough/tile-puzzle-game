@@ -11,5 +11,5 @@ logo.onmouseout = function() {
 
 //If logo is clicked, go back to homepage.  
 logo.onclick = function() {
-    window.open('tile-puzzle-game/index.html', '_self', false)
+    document.location.href = "https://interborough.github.io/tile-puzzle-game/";
 }
