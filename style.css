@@ -107,6 +107,7 @@ p {
 
 #text-div {
     flex: 1 0 auto; 
+    padding-top: 1%;
 }
 
 footer {
