@@ -1,5 +1,5 @@
 # Tile Puzzle Game
-A website that allows the user to play a tile swapping puzzle game. Creating using HTML, CSS, Javascript, and a small amount of JQuery. Deployed using Github Pages at the following link: https://interborough.github.io/tile-puzzle-game/
+A website that allows the user to play a tile swapping puzzle game. Creating using HTML, CSS, Javascript, and a small amount of jQuery. Deployed using Github Pages at the following link: https://interborough.github.io/tile-puzzle-game/
 
 ## How to Play
 In this game, an image has been cut up into nine pieces, and then each piece is randomly placed into a 3x3 grid. To win the game, you must rearrange the image fragments within the grid to recreate the original image.
