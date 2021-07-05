@@ -5,6 +5,7 @@ logo.onmouseover = function() {
     logo.style.backgroundColor = "#34495e"; 
 }
 
+//If logo is un-hovered, remove its highlight.
 logo.onmouseout = function() {
     logo.style.backgroundColor = "rgb(41, 61, 81)";
 }

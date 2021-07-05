@@ -1,7 +1,7 @@
 var images = ['pic/puzzle/Row 1 Col 1.jpg', 'pic/puzzle/Row 1 Col 2.jpg', 'pic/puzzle/Row 1 Col 3.jpg', 'pic/puzzle/Row 2 Col 1.jpg',
  'pic/puzzle/Row 2 Col 2.jpg', 'pic/puzzle/Row 2 Col 3.jpg', 'pic/puzzle/Row 3 Col 1.jpg', 'pic/puzzle/Row 3 Col 2.jpg', 'pic/puzzle/Row 3 Col 3.jpg']; 
 
- var swapCount = 0; 
+var swapCount = 0; 
 
 document.addEventListener("DOMContentLoaded", function() 
 {
@@ -19,8 +19,9 @@ document.addEventListener("DOMContentLoaded", function()
 //Generates Random Positions for each picture upon page load.
 function randomPositions(picID)
 {
-   var randomNum = Math.floor(Math.random() * images.length);
+  var randomNum = Math.floor(Math.random() * images.length);
 
+  //If the image has already been randomized, generate a new index.
   while(images[randomNum] == undefined)
   {
     randomNum = Math.floor(Math.random() * images.length);
